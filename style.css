@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Libre+Franklin:ital@0;1&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: hsl(0, 0%, 86%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.sub-container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px 10px 80px 10px;
+}
+.input-container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+.input-group{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.input-group input{
+    width: 100px;
+    height: 40px;
+    border: 1px solid hsl(0, 0%, 94%);
+    padding-left: 10px;
+    outline: none;
+}
+.input-group input::placeholder{
+    color: #929292;
+}
+.input-group input::-webkit-inner-spin-button,-webkit-outer-spin-button{
+    display: none;
+}
+.input-group label{
+    width: 80px;
+    font-size: 10px;
+    color: #929292;
+}
+.input-group p{
+    font-size: 8px;
+    width: 80px;
+    margin-top: 5px;
+}
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.two .line{
+    width: 350px;
+    height: 1px;
+    background-color: hsl(0, 0%, 86%);
+}
+.two .img{
+    background-color: hsl(259, 100%, 65%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.two .img img{
+    width: 30px;
+}
+.err-msg{
+    visibility: hidden;
+    color: red;
+}
+
+.show-calc{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.show-calc h1{
+    font-size: 60px;
+   color: hsl(259, 100%, 65%);
+}
+.show-calc h2{
+    font-size: 60px;
+}
+
+@media screen and (max-width : 500px){
+    body{
+    background-color: hsl(0, 0%, 86%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.sub-container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px 10px 80px 10px;
+}
+.input-container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+.input-group{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.input-group input{
+    width: 100px;
+    height: 40px;
+    border: 1px solid hsl(0, 0%, 94%);
+    padding-left: 10px;
+    outline: none;
+}
+.input-group input::placeholder{
+    color: #929292;
+}
+.input-group input::-webkit-inner-spin-button,-webkit-outer-spin-button{
+    display: none;
+}
+.input-group label{
+    width: 80px;
+    font-size: 10px;
+    color: #929292;
+}
+.input-group p{
+    font-size: 8px;
+    width: 80px;
+    margin-top: 5px;
+}
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 30px 0;
+}
+.two .line{
+    width: 300px;
+    height: 1px;
+    background-color: hsl(0, 0%, 86%);
+}
+.two .img{
+    background-color: hsl(259, 100%, 65%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    left: 135px;
+}
+.two .img img{
+    width: 30px;
+}
+.err-msg{
+    visibility: hidden;
+    color: red;
+}
+
+.show-calc{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.show-calc h1{
+    font-size: 60px;
+   color: hsl(259, 100%, 65%);
+}
+.show-calc h2{
+    font-size: 60px;
+}
+}
